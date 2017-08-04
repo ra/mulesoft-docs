@@ -7,23 +7,34 @@
 
 The Anypoint Connector for NetSuite synchronizes data and automates business processes between NetSuite and third-party applications, either on-premises or in the cloud.
 
-== Version 8.0.0 - July 29, 2017
+== Version 7.6.0 - August 4, 2017
 
-This version provides access to Anypoint Platform > Design Center, and Mule 4
 
 === Compatibility
 
 [%header%autowidth.spread]
 |===
 |Software |Version
-|Mule Runtime|4.0
-|Anypoint Studio |Only works with Studio 7.0.0 and later
-|API|SuiteTalk 2017.1
+|Mule Runtime|3.5
+|API|SuiteTalk 2017.1 GA
 |===
 
-=== Version 8.0.0 Known Issues
+[NOTE]
+The *NetSuite* version is *not* the same as the *SuiteTalk API* version. Your account may be running on a version of NetSuite different to the version of the the API you are using.
 
-* While an array of objects is returned for a set of operations, metadata shows the response as an object.
+=== Features
+
+* *Support for SuiteTalk API version 2017.1 GA* - No new web services. For a detailed list of changes, log into NetSuite, open *Help Center* and navigate to *New Release* -> *Release Notes* -> *NetSuite 2017.1 Release Notes* -> *SuiteTalk (Web Services) Integration*.
+
+
+=== Fixed in this Release
+
+None.
+
+=== Known Issues
+
+None.
+
 
 == Version 7.5.2 - July 25, 2017
 
