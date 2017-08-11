@@ -16,7 +16,7 @@ The Mule MLLP transport provides connectivity and parsing functionality for MLLP
 [width="100%", cols=",", options="header"]
 |===
 |Software |Version
-|Mule Runtime |3.7.0
+|Mule Runtime |3.6.0
 |===
 
 === Features
